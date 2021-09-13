@@ -1,0 +1,65 @@
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container h1, p {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+input, textarea {
+    
+    width: 80%;
+    margin: 11px;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+button {
+    margin: 11px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background: rgb(83, 33, 83);
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.success {
+    color: rgb(156, 0, 0);
+    font-size: 20px;
+    font-family:cursive;
+}
